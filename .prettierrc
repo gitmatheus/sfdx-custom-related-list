@@ -1,0 +1,40 @@
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "consistent",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 4,
+  "trailingComma": "all",
+  "useTabs": false,
+  "htmlWhitespaceSensitivity": "css",
+  "plugins": ["prettier-plugin-apex"],
+  "overrides": [
+      {
+          "files": "**/lwc/**/*.html",
+          "options": {
+              "parser": "lwc"
+          }
+      },
+      {
+          "files": "*.{cmp,page,component}",
+          "options": {
+              "parser": "html"
+          }
+      },
+      {
+          "files": "**/aura/**/*.js",
+          "options": {
+              "trailingComma": "none"
+          }
+      },
+      {
+          "files": "**/*.json",
+          "options": {
+              "trailingComma": "none"
+          }
+      }
+  ]
+}

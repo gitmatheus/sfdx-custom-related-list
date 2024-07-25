@@ -1,0 +1,16 @@
+<template>
+    <lightning-modal-header label={header}></lightning-modal-header>
+    <lightning-modal-body>
+        <lightning-record-form
+            record-id={recordId}
+            object-api-name={objectApiName}
+            layout-type="Full"
+            mode="edit"
+            columns="2"
+            onsuccess={handleSuccess}
+            onerror={handleError}
+            oncancel={handleCancel}
+        >
+        </lightning-record-form>
+    </lightning-modal-body>
+</template>

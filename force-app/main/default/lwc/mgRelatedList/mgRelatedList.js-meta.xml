@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="fromObjectApiName" type="String" label="Target Object API Name" description="API name of the object to query records from." />
+            <property name="relatedFieldApiName" type="String" label="Target Field API Name" description="API name of the field that relates to the target object." />
+            <property name="sourceFieldApiName" type="String" label="Source Field API Name" description="API name of the field on the current record used in the query's WHERE clause." />
+            <property name="fields" type="String" label="Fields to Display (comma separated)" description="Comma-separated list of fields to display in the table." />
+            <property name="orderBy" type="String" label="Fields to Order By (comma separated)" description="Comma-separated list of fields to sort by, with optional ASC or DESC." />
+            <property name="numberOfRecords" type="Integer" label="Number of records to display" description="Defaults to 6 if not provided." />
+            <property name="iconName" type="String" label="Icon Name (e.g., 'standard:account')" description="Icon to use, defaults to the target object's icon if not specified." />
+            <property name="showNewButton" type="Boolean" label="Show [ New ] Button" description="Show or hide the [ New ] button at the top of the list." />
+            <property name="showViewAll" type="Boolean" label="Show [ View All ] Link" description="Show or hide the [ View All ] link, only for parent-child relationships." />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
