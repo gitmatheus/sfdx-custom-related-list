@@ -17,6 +17,9 @@ The `mgRelatedList` component allows you to create fully customizable related li
 - **🛠️ CRUD Operations:** Supports creating, editing, and deleting records directly from the list.
 - **🔄 Refresh on Action:** Automatically refreshes the list upon any CRUD operation, keeping data up-to-date without manual intervention.
 
+#### 🎨 UI & UX Note
+The component UI and UX follow Salesforce's standard Lightning Design System (SLDS) to provide a seamless and cohesive user experience consistent with the rest of the Salesforce ecosystem.
+
 #### Usage:
 - **📄 Record Pages Only:** This component is available exclusively for record pages.
 - **⚙️ Customization:** Use the Lightning App Builder to add and configure this component on the desired record page.
