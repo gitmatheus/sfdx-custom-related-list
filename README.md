@@ -1,7 +1,3 @@
-Here's a fun and engaging version of your README with emojis:
-
----
-
 # Custom Related List and Edit Modal Lightning Web Components 
 
 Welcome to the **Custom Related List** and **Edit Modal** LWC repository! This project includes two powerful Lightning Web Components designed to enhance Salesforce record pages with customizable and dynamic related lists and a sleek edit modal interface. 
