@@ -13,7 +13,7 @@ The `mgRelatedList` component allows you to create fully customizable related li
 #### Key Features:
 - **✨ Customization:** Tailor the related list display using the Lightning App Builder. Customize fields, number of records, buttons to show or hide, and layout to suit your needs.
 - **🔛 Multi-Direction Relationships:** Display child-to-parent, parent-to-child, and even unrelated objects that share correlatable ID fields.
-- **🌟 Dynamic Schema Reading:** Automatically adjusts to schema changes, ensuring relevant data representation.
+- **🌟 Dynamic Schema Reading:** Automatically adjusts to schema changes using an Apex controller (`MgRelatedListController`), ensuring relevant data representation.
 - **🛠️ CRUD Operations:** Supports creating, editing, and deleting records directly from the list.
 - **🔄 Refresh on Action:** Automatically refreshes the list upon any CRUD operation, keeping data up-to-date without manual intervention.
 
