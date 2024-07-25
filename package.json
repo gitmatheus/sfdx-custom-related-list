@@ -1,8 +1,8 @@
 {
-  "name": "salesforce-app",
+  "name": "mg-custom-record-list",
   "private": true,
   "version": "1.0.0",
-  "description": "Salesforce App",
+  "description": "MG Custom Related List and Edit Modal Lightning Web Components",
   "scripts": {
     "lint": "eslint **/{aura,lwc}/**/*.js",
     "test": "npm run test:unit",

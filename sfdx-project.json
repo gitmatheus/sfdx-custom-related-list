@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "Custom Related List",
+  "name": "MG Custom Related List and Edit Modal Lightning Web Components",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0"
