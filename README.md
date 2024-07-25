@@ -2,6 +2,8 @@
 
 Welcome to the **Custom Related List** and **Edit Modal** LWC repository! This project includes two powerful Lightning Web Components designed to enhance Salesforce record pages with customizable and dynamic related lists and a sleek edit modal interface. 
 
+![Screenshot 2024-07-24 at 11 14 38 PM](https://github.com/user-attachments/assets/b940263f-02aa-468a-9b4e-2b15c20408e0)
+
 ## Components Overview
 
 ### 1. mgRelatedList
@@ -35,6 +37,9 @@ To use these components, follow the standard process for deploying LWCs in your 
 1. Clone the repository.
 2. Deploy the components to your Salesforce org using Salesforce CLI.
 3. Add and configure the components using the Lightning App Builder.
+
+![Screenshot 2024-07-24 at 11 15 05 PM](https://github.com/user-attachments/assets/edc12fcf-20ff-4408-a025-31ae076eef2a)
+
 
 PS: Make sure the record page is activated with the appropriate org, app, or record type configurations.
 
