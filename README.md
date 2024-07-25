@@ -45,6 +45,49 @@ To use these components, follow the standard process for deploying LWCs in your 
 
 **PS:** Make sure the record page is activated with the appropriate org, app, or record type configurations.
 
+Certainly! Below is an additional section for the README, detailing the folder structure of the project, specifically focusing on the `lwc` and `classes` directories.
+
+## Folder Structure
+
+As in most SFDX projects, this repository is organized as follows:
+
+- **LWC Components (`lwc/`)**:
+  - `mgRelatedList`: Contains the files for the `mgRelatedList` component, including HTML, JavaScript, metadata configuration, and optional CSS.
+  - `mgEditRecordModal`: Contains the files for the `mgEditRecordModal` component, structured similarly to `mgRelatedList`.
+
+- **Apex Classes (`classes/`)**:
+  - `MgRelatedListController.cls`: The Apex controller supporting the `mgRelatedList` component, handling server-side logic.
+  - `MgRelatedListControllerTest.cls`: The test class for `MgRelatedListController`, ensuring code coverage and proper functionality.
+
+```
+project-root/
+│
+├── force-app/
+│   ├── main/
+│   │   ├── default/
+│   │   │   ├── lwc/
+│   │   │   │   ├── mgRelatedList/
+│   │   │   │   │   ├── mgRelatedList.html
+│   │   │   │   │   ├── mgRelatedList.js
+│   │   │   │   │   ├── mgRelatedList.js-meta.xml
+│   │   │   │   │   ├── mgRelatedListHelper.js
+│   │   │   │   │   └── mgRelatedList.css
+│   │   │   │   ├── mgEditRecordModal/
+│   │   │   │   │   ├── mgEditRecordModal.html
+│   │   │   │   │   ├── mgEditRecordModal.js
+│   │   │   │   │   └── mgEditRecordModal.js-meta.xml
+│   │   │   │   └── ... 
+│   │   │   │
+│   │   │   ├── classes/
+│   │   │   │   ├── MgRelatedListController.cls
+│   │   │   │   ├── MgRelatedListController.cls-meta.xml
+│   │   │   │   ├── MgRelatedListControllerTest.cls
+│   │   │   │   └── MgRelatedListControllerTest.cls-meta.xml
+│   │   │   └── ... 
+│   └── ... 
+└── ... 
+```
+
 ## ⚠️ Limitations
 
 - **💻 Desktop Only:** The components are currently optimized for desktop use and may not display correctly on mobile devices.
