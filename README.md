@@ -57,7 +57,3 @@ I encourage LWC developers to use this repository as a starting point for creati
 ## 📬 Feedback and Support
 
 If you encounter any issues or have suggestions for improvement, please open an issue in the GitHub repository. I really appreciate your feedback and contributions to making these components better!
-
----
-
-Feel free to adjust the emojis to better match the tone and content of each section!
