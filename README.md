@@ -89,3 +89,5 @@ I encourage LWC developers to use this repository as a starting point for creati
 ## 📬 Feedback and Support
 
 If you encounter any issues or have suggestions for improvement, please open an issue in the GitHub repository. I really appreciate your feedback and contributions to making these components better!
+
+<strong>Disclaimer: </strong><em>This is a personal project created by a developer for the developer community. It is not endorsed, sponsored, or officially supported by Trailhead or Salesforce. Use at your own discretion, and enjoy building with these custom components!🚀</em>
