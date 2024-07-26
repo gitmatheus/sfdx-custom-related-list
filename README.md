@@ -17,6 +17,16 @@ The `mgRelatedList` component allows you to create fully customizable related li
 - **🛠️ CRUD Operations:** Supports creating, editing, and deleting records directly from the list.
 - **🔄 Refresh on Action:** Automatically refreshes the list upon any CRUD operation, keeping data up-to-date without manual intervention.
 
+
+
+https://github.com/user-attachments/assets/9329d7a6-a95d-4785-95d8-3a2c1c77bc70
+
+
+
+https://github.com/user-attachments/assets/ed00dd69-8360-4e34-b78f-d957afb5f203
+
+
+
 #### 🎨 UI & UX Note
 The component UI and UX follow Salesforce's standard Lightning Design System (SLDS) to provide a seamless and cohesive user experience consistent with the rest of the Salesforce ecosystem.
 
