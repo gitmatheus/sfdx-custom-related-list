@@ -38,11 +38,6 @@ The component UI and UX follow Salesforce's standard Lightning Design System (SL
 
 The `mgEditRecordModal` component is a sleek and efficient modal interface for editing records directly from the data table provided by `mgRelatedList`.
 
-#### Key Features:
-- **⚡ LightningModal Integration:** Utilizes the `LightningModal` component for a seamless and modern user experience.
-- **✏️ Inline Editing:** Edit records directly from the modal, providing a smooth user experience.
-- **🔃 Data Sync:** Automatically returns a value that can be used by parent components to refresh the data upon record edits.
-
 ## 🚀 Installation and Setup
 
 To use these components, follow the standard process for deploying LWCs in your Salesforce org:
@@ -54,8 +49,6 @@ To use these components, follow the standard process for deploying LWCs in your 
 ![Screenshot 2024-07-24 at 11 15 05 PM](https://github.com/user-attachments/assets/edc12fcf-20ff-4408-a025-31ae076eef2a)
 
 **PS:** Make sure the record page is activated with the appropriate org, app, or record type configurations.
-
-Certainly! Below is an additional section for the README, detailing the folder structure of the project, specifically focusing on the `lwc` and `classes` directories.
 
 ## Folder Structure
 
