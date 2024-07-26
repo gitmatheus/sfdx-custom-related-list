@@ -2,30 +2,20 @@
 
 Welcome to the **Custom Related List** and **Edit Modal** LWC repository! This project includes two powerful Lightning Web Components designed to enhance Salesforce record pages with customizable and dynamic related lists and a sleek edit modal interface. 
 
-![Screenshot 2024-07-24 at 11 14 38 PM](https://github.com/user-attachments/assets/b940263f-02aa-468a-9b4e-2b15c20408e0)
+![RelatedListMain](https://github.com/user-attachments/assets/de029f59-049e-4af2-92dd-e78f6b6d211b)
 
 ## Components Overview
 
-### 1. mgRelatedList 🗂️
+### mgRelatedList and mgEditRecordModal components 🗂️
 
 The `mgRelatedList` component allows you to create fully customizable related lists on Salesforce record pages. This component supports various configurations and customization options via the Lightning App Builder.
 
 #### Key Features:
-- **✨ Customization:** Tailor the related list display using the Lightning App Builder. Customize fields, number of records, buttons to show or hide, and layout to suit your needs.
-- **🔛 Multi-Direction Relationships:** Display child-to-parent, parent-to-child, and even unrelated objects that share correlatable ID fields.
-- **🌟 Dynamic Schema Reading:** Automatically adjusts to schema changes using an Apex controller (`MgRelatedListController`), ensuring relevant data representation.
-- **🛠️ CRUD Operations:** Supports creating, editing, and deleting records directly from the list.
-- **🔄 Refresh on Action:** Automatically refreshes the list upon any CRUD operation, keeping data up-to-date without manual intervention.
-
-
+![RelatedListLWCOverview](https://github.com/user-attachments/assets/d27d8732-c39a-4c06-a85f-0fb0e5f87046)
 
 https://github.com/user-attachments/assets/9329d7a6-a95d-4785-95d8-3a2c1c77bc70
 
-
-
 https://github.com/user-attachments/assets/ed00dd69-8360-4e34-b78f-d957afb5f203
-
-
 
 #### 🎨 UI & UX Note
 The component UI and UX follow Salesforce's standard Lightning Design System (SLDS) to provide a seamless and cohesive user experience consistent with the rest of the Salesforce ecosystem.
@@ -33,10 +23,6 @@ The component UI and UX follow Salesforce's standard Lightning Design System (SL
 #### Usage:
 - **📄 Record Pages Only:** This component is available exclusively for record pages.
 - **⚙️ Customization:** Use the Lightning App Builder to add and configure this component on the desired record page.
-
-### 2. mgEditRecordModal 📝
-
-The `mgEditRecordModal` component is a sleek and efficient modal interface for editing records directly from the data table provided by `mgRelatedList`.
 
 ## 🚀 Installation and Setup
 
